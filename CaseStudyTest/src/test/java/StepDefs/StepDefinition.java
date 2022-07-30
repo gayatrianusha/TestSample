@@ -32,7 +32,7 @@ public class StepDefinition extends TestBaseFinal{
 	@When("Add an item to cart")
 	public void add_an_item_to_cart() {
 	    // Write code here that turns the phrase above into concrete actions
-	    
+	    System.out.println("Hello");
 	}
 	@Then("Items must be added to cart")
 	public void items_must_be_added_to_cart() {
